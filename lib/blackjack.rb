@@ -51,10 +51,6 @@ def hit?(current_card_total)
     current_card_total+=new_card
   end
   
-  if input == 'h'
-    invalid_command
-    prompt_user
-  end
   
   current_card_total
 end
